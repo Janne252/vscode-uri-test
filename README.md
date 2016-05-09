@@ -7,5 +7,5 @@
 4. `test.txt` should now be opened in the edtitor. Follow the instructions provided in the file.
 
 
-
-[License](https://github.com/Janne252/vscode-uri-test/tree/master/LICENSE.txt)
+##License
+[MIT](https://github.com/Janne252/vscode-uri-test/tree/master/LICENSE.txt)
