@@ -5,3 +5,7 @@
 2. Open a folder (preferrably an empty one)
 3. Execute command `Create demo files (text.txt and plain.txt)` (Press F1, type `create`, select `Create demo files (text.txt and plain.txt)` from the list)
 4. `test.txt` should now be opened in the edtitor. Follow the instructions provided in the file.
+
+
+
+[**Licence](https://github.com/Janne252/vscode-uri-test/tree/master/LICENSE.txt)
