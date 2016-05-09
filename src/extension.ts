@@ -1,3 +1,8 @@
+/*---------------------------------------------------------
+ * Copyright (C) Janne Varjo. All rights reserved.
+ * Licensed under the MIT License. See LICENSE.txt in the project root for license information.
+ *--------------------------------------------------------*/
+
 'use strict';
 
 import * as vscode from 'vscode';
@@ -9,7 +14,8 @@ export var supportedLanguages = ['plaintext'];
  
 export function activate(context: vscode.ExtensionContext) 
 {
-    console.log('uri-test is no active!');
+    console.log('uri-test is now active!');
+    
     context.subscriptions.push(languages.registerHoverProvider(supportedLanguages, new CustomHoverProvider()));
     
     context.subscriptions.push(commands.registerCommand('extension.createDemoFiles', () => 
@@ -47,7 +53,6 @@ export function activate(context: vscode.ExtensionContext)
         }
     });
 }
-
 
 export function deactivate() 
 {
