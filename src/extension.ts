@@ -21,7 +21,7 @@ export function activate(context: vscode.ExtensionContext)
             var path1 = workspace.rootPath + "\\test.txt";
             var path2 = workspace.rootPath + "\\plain.txt";
             
-            fs.writeFileSync(path1, 'This is a plain text file. Mouse-over the word "plain" to bring up the clickable link.');
+            fs.writeFileSync(path1, 'This is a plain text file. Mouse-over the word "plain" to bring up a clickable link.');
             fs.writeFileSync(path2, 'Did you open me via the mouse-over popup? Good. Now edit me.');
             
             var openDocument = workspace.openTextDocument(path1);
@@ -43,7 +43,7 @@ export function activate(context: vscode.ExtensionContext)
         
         if (fileName == "plain.txt")
         {
-            window.showInformationMessage(`Did a ghost file, starting with '\\\\' appear in the 'EXPLORER'?`);
+            window.showInformationMessage(`Did a ghost file, starting with '\\\\', appear in 'WORKING FILES'?`);
         }
     });
 }
