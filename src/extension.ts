@@ -6,7 +6,7 @@
 'use strict';
 
 import * as vscode from 'vscode';
-import {CustomHoverProvider} from './extension/hoverProvider'; 
+import {CustomHoverProvider} from './extension/customHoverProvider'; 
 import {languages, commands, window, workspace, TextDocumentChangeEvent, TextDocument} from 'vscode';
 import {Path} from './extension/helpers';
 
