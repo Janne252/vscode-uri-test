@@ -8,4 +8,4 @@
 
 
 
-[**Licence](https://github.com/Janne252/vscode-uri-test/tree/master/LICENSE.txt)
+**[Licence](https://github.com/Janne252/vscode-uri-test/tree/master/LICENSE.txt)
